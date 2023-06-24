@@ -1,0 +1,725 @@
+{
+  "intents": [
+    {
+      "tag": "sapa",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Halo",
+        "Hallo",
+        "Hello",
+        "Hello",
+        "Helo",
+        "Hai"
+      ],
+      "responses": [
+        "Hi, ada yang bisa saya bantu?",
+        "Hey, ada yang bisa saya bantu?",
+        "Halo, ada yang bisa saya bantu?",
+        "Hi,ada yang ingin kamu tanyakan?",
+        "Hai ada yang ingin kamu tanyakan?"
+      ]
+    },
+    {
+      "tag": "pagi",
+      "patterns": ["Selamat pagi", "Pagi", "Pegi", "Slmt pgi","Slmt pegi"],
+      "responses": [
+        "Selamat pagi, ada yang bisa kami bantu ?",
+        "Selamat pagi, Ada yang ingin anda tanyakan?"
+      ]
+    },
+    {
+      "tag": "siang",
+      "patterns": ["Selamat siang", "siang", "Halo semalat siang", "semalat siang","Slmt siang","Slmt sng","Smlt siang!"],
+      "responses": ["Selamat siang, ada yang bisa kami bantu?",  "Selamat siang, Ada yang ingin anda tanyakan?"]
+    },
+    {
+      "tag": "sore",
+      "patterns": [
+        "Selamat sore",
+        "sore",
+        "Halo semalat sore",
+        "Slmt sore",
+        "Selamatsore",
+        "Selamat sore!"
+      ],
+      "responses": [
+        "Selamat sore, ada yang bisa kami bantu?",
+        "Selamat sore, Ada yang ingin anda tanyakan?"
+      ]
+    },
+    {
+      "tag": "malam",
+      "patterns": [
+        "Selamat malam",
+        "Malam",
+        "Halo semalat malam",
+        "Slmt mlm",
+        "Selmt malam!",
+        "Mlm"
+      ],
+      "responses": [
+        "Selamat malam, ada yang bisa kami bantu?",
+        "Selamat malam, Ada yang ingin anda tanyakan?"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "Terima kasih",
+        "Makasih",
+        "Matur nuwun",
+        "terimakasih"
+      ],
+      "responses": [
+        "Senang bisa membantu anda",
+        "sama sama"
+      ]
+    },
+    {
+      "tag": "tanyaaplikasi",
+      "patterns": [
+        "Ini aplikasi untuk apa?",
+        "Untuk apa aplikasi ini dibikin?",
+        "Bisakah anda jelaskan kepada saya mengenai aplikasi ini?",
+        "Aplikasi apa ini?",
+        "Untuk siapa aplikasi ini?"
+      ],
+      "responses": [
+        "Aplikasi  Kanca Bot TI merupakan aplikasi layanan prodi dengan sistem rekomendasi"
+        
+      ]
+    },
+    {
+      "tag": "carapenggunaan",
+      "patterns": [
+        "Bagaimana cara menggunakan aplikasi kanca Bot TI ?",
+        "Cara penggunaan aplikasi ini",
+        "saya belum tau cara penggunaannya gimanacara penggunaan aplikasi ini gimana sih?",
+        "saya belum tau cara penggunaannya gimana?",
+        "Bagaiamana cara penggunaan aplikasi?",
+        "Cra penggunan aplikasi ini",
+        "cara penggunaan aplikasi ini?"
+      ],
+      "responses": [
+        "Aplikasi ini dapat akan merekomendasikan anda dalam seputar prodi"
+        
+      ]
+    },
+    {
+      "tag": "fitur",
+      "patterns": [
+        "Apa saja fitur yang terdapat pada aplikasi ini?",
+        "fitur apa saja yang tersedia di aplikasi ini",
+        "tersedia fitur apa saja di aplikasi ini?",
+        "tersedia fitur apa saja di aplikasi ini",
+        "fitur apa saja di kanca bot ti?",
+        "di kanca bot ti tersedia fitur apa saja?",
+        "fiturnya apa aja ?",
+        "ada berapa fitur pada aplikasi ini?",
+        "fitur apa aja di aplikasi ini?",
+        "Ada fitur apa saja diaplikasi ini?",
+        "Fitur apa saja aplikasi ini?",
+        "Ada fitur apa saja di aplikasi kanca Bot TI?"
+      ],
+      "responses": [
+        "Aplikasi Kanca Bot TI memiliki 3 fitur yaitu Untuk melihat apa saja yang akan dipilih oleh user, Chatbot yang anda gunakan saat ini, dan ada fitur untuk logout"
+        
+      ]
+    },
+    {
+      "tag": "tentang",
+      "patterns": [
+        "Apa itu sarjana terapan teknik informatika politeknik harapan bersama?",
+        "apa teknik iformatika dipoltek harber?",
+        "pengertian sarjana teknik informatika di poltek harbe?",
+        "apa itu sarjana teknik informatika?",
+        "Tentang sarjana terapan teknik informatika politeknik harapan bersama ?"
+        
+      ],
+      "responses": [
+        "Sarjana Terapan Teknik Informatika merupakan program studi pada Politeknik Harapan Bersama yang mendapatkan SK Pendirian pada tanggal 13 Desember 2012 dengan Nomor SK Pendirian 420/E/0/2012."
+        
+      ]
+    },
+    {
+      "tag": "visi",
+      "patterns": [
+        "apa visi sarjana terapan teknik informatika politeknik harapan bersama?",
+        "visi sarjan terapan teknik informatika poltek harber?",
+        "visi teknik informatika dipoltek harber?",
+        "apa saja visi sarjana terapan teknik informatika politeknik harapan bersama ?",
+        "apa saja visi sarjana terapan teknik informatika poltek ?",
+        "apa saja visi sarjana terapan TI poltek ?",
+        "apa saja visi ?",
+        "visi ti ?"
+        
+      ],
+      "responses": [
+        "Menjadi program studi unggul dalam bidang teknik informatika yang mampu beradaptasi terhadap perkembangan teknologi informasi, berjiwa kewirausahaan, berbasis kearifan lokal dan berdaya saing global pada tahun 2035."
+        
+      ]
+    },
+    {
+      "tag": "misi",
+      "patterns": [
+        "apa misi sarjana terapan teknik informatika politeknik harapan bersama?",
+        "misi sarjana terapan teknik infromatika poltek harber?",
+        "misi sarjana teknik informatika poltek harber",
+        "misi ti poltek harber?",
+        "misi TI poltek harber",
+        "apa saja misi sarjana terapan teknik informatika politeknik harapan bersama ?",
+        "apa saja misi sarjana terapan teknik informatika poltek ?",
+        "apa saja misi sarjana terapan TI poltek ?"
+        
+      ],
+      "responses": [
+        "1.Meningkatkan mutu Program Studi melalui peningkatan nilai akreditasi, 2.Mengembangkan kurikulum berbasis vokasional dalam bidang perangkat lunak yang sesuai dengan perkembangan teknologi informasi. 3.Meningkatkan kerjasama dengan institusi, industri, dan komunitas masyarakat dalam bidang perangkat lunak di dalam maupun di luar negeri. 4.Meningkatkan daya saing dosen dan mahasiswa dalam bidang perangkat lunak."
+        
+      ]
+    },
+    {
+      "tag": "tujuan",
+      "patterns": [
+        "apa tujuan sarjana terapan teknik informatika politeknik harapan bersama?",
+        "tujuan sarjana terapan teknik infromatika poltek harber?",
+        "tujuan teknik infromatika poltek harber ",
+        "tujuan TI dipoltek harber?",
+        " apa tujuan ti di poltek harber?",
+        "apa saja tujuan sarjana terapan teknik informatika politeknik harapan bersama ?",
+        "apa saja tujuan sarjana terapan teknik informatika poltek ?",
+        "apa saja tujuan sarjana terapan TI poltek ?"
+        
+      ],
+      "responses": [
+        "1.Meningkatnya mutu Program Studi melalui peningkatan nilai akreditasi. 2.Menyelenggarakan pendidikan guna menghasilkan lulusan yang cakap dan berintegritas, inovatif, dan berjiwa kewirausahaan. 3.Meningkatnya kerjasama dengan institusi, industri, dan komunitas masyarakat di bidang teknik informatika baik di dalam maupun di luar negeri. 4.Meningkatnya daya saing dosen dan mahasiswa dalam bidang teknik informatika."
+        
+      ]
+    },
+    {
+      "tag": "strukturorganisasi",
+      "patterns": [
+        "Struktur organisasi apa saja di studi teknik informatika?",
+        "Ada struktur organisasi di prodi teknik infromatika?",
+        " struktur organisasi apa saja diprodi TI",
+        "apa saja struktur ti?",
+        "Bagaimana  struktur organisasi di poltek harber?",
+        "Jajaran apa saja di struktur organisi di teknik informatika?",
+        "Ada apa saja di dalam struktur organisasi teknik informatika?"
+        
+      ],
+      "responses": [
+        "1.Ka.Prodi, 2.Sekretaris Program Studi, 3.Koordinator Bidang Akademik, 4.Koordinator Bidang SPMI, 5.Koordinator Bidang Kemahasiswaan, 6.Koordinator Bidang Laboratorium, 7.Dosen & Staff"
+        
+      ]
+    },
+
+    {
+      "tag": "kaprodi",
+      "patterns": [
+        "Siapa nama kaprodi teknik informatika?",
+        "nama kaprodi ti?",
+        "nama kaprodi TI",
+        "siapa nama kepala prodi teknik informatika dipoltek harber?",
+        "apakah tau nama kaprodi TI?",
+        "apa kamu tau nama kaprodi teknik infromatika",
+        "apakah kamu tau nama kaprodi ti?",
+        "Siapa nama kepalaprodi teknik informatika?",
+        "Siapa nama kapala prodi teknik informatika politeknik harapan bersama?",
+        "Siapa nama kaprodi teknik informatika poltek harber?",
+        "siapa pimpinan kaprodi ti poltek harber saat ini?",
+        "pimpinan kaprodi teknik informatika saat ini?",
+        "Siapa nama kepala prodi studi teknik informatika politeknik harapan bersama?"
+        
+      ],
+      "responses": [
+        "Saat ini KaProdi dipimpin oleh Pak Slamet Wiyono,S.Pd.,M.Eng"
+        
+      ]
+    },
+
+    {
+      "tag": "pakslamet",
+      "patterns": [
+        "Siapa pak slamet wiyono ?",
+        "Apa jabatan pak slamet wiyono di poltek harber?",
+        "Sebagai apa pak slamet dipoltek harber?",
+        "apa jabatan pak slamet wiyono diprodi teknik informatika?",
+        "apa jabatan pak slamet di poltek harber?",
+        "siapakah dia pak slamet wiyono?",
+        "siapakah pak slamet di poltek harber?",
+        "Jabatan apa yang diduduki pak slamet dipoltek harber?",
+        "pak slamet saat ini menjabat sebagai apa?",
+        "apa jabatan saat ini pak slamet?",
+        "apa jabatan pak slamet diprodi studi teknik informatika politeknik harapan bersama?"
+        
+      ],
+      "responses": [
+        "Saat ini  Pak Slamet Wiyono,S.Pd.,M.Eng jabatan sebagai Kaprodi TI"
+        
+      ]
+    },
+
+    {
+      "tag": "sekprodi",
+      "patterns": [
+        "Siapa nama sekretaris program studi teknik informatika?",
+        "Siapa nama sekretaris programstudi teknikinformatika?",
+        "Siapa nama sekretaris programstudi teknikinformatika poltek harber?", 
+        "Siapa nama sekretaris program studi teknik informatika politeknik harapan bersama?",
+        "Siapa nama sekretaris program studi teknik informatika poltek harber?",
+        "Siapa nama sekretaris program studi teknik informatika politeknik harapan bersama?"
+        
+      ],
+      "responses": [
+        "Sekretaris program studi : Pak Muhammad Fikri Hidayattullah,S.T.,M.Kom."
+        
+      ]
+    },
+
+    {
+      "tag": "pakfikri",
+      "patterns": [
+        "Siapa pakfikri?",
+        "Apa jabatan pakfikri di poltek harber?",
+        "Sebagai apa pakfikri dipoltek harber?",
+        "apa jabatan pakfikri diprodi teknik informatika?",
+        "apa jabatan pakfikri di poltek harber?",
+        "siapakah dia pakfikri?",
+        "siapakah pakfikri di poltek harber?",
+        "Jabatan apa yang diduduki pakfikri dipoltek harber?",
+        "pakfikri saat ini menjabat sebagai apa?",
+        "apa jabatan saat ini pakfikri?",
+        "apa jabatan pakfikri diprodi studi teknik informatika politeknik harapan bersama?"
+        
+      ],
+      "responses": [
+        "Saat ini  Pak Muhammad Fikri Hidayattullah,S.T.,M.Kom. jabatan sebagai Sekretaris program studi TI"
+        
+      ]
+    },
+
+    {
+      "tag": "korbidangakademik",
+      "patterns": [
+        "Siapa nama koordinator bidang akademik teknik informatika?",
+        "Siapa nama koordinator bidang akademik  teknikinformatika?",
+        "Siapa nama koordinator bidang akademik  teknikinformatika poltek harber?", 
+        "Siapa nama koordinator bidang akademik teknik informatika politeknik harapan bersama?",
+        "Siapa nama koordinator bidang akademik teknik informatika poltek harber?",
+        "Siapa nama koordinator bidang akademik teknik informatika politeknik harapan bersama?"
+        
+      ],
+      "responses": [
+        "Koordinator bidang akademik : Bu Dwi intan af'idah,S.T.,M.Kom."
+        
+      ]
+    },
+
+    {
+      "tag": "BuDwiintan",
+      "patterns": [
+        "Siapa Bu Dwi intan?",
+        "Apa jabatan Bu Dwi intan di poltek harber?",
+        "Sebagai apa Bu Dwi intan dipoltek harber?",
+        "apa jabatan Bu Dwi intan diprodi teknik informatika?",
+        "apa jabatan Bu Dwi intan di poltek harber?",
+        "siapakah dia Bu Dwi intan?",
+        "siapakah Bu Dwi intan di poltek harber?",
+        "Jabatan apa yang diduduki Bu Dwi intan dipoltek harber?",
+        "Bu Dwi intan saat ini menjabat sebagai apa?",
+        "apa jabatan saat ini Bu Dwi intan?",
+        "apa jabatan Bu Dwi intan diprodi studi teknik informatika politeknik harapan bersama?"
+        
+      ],
+      "responses": [
+        "Saat ini  Bu Dwi intan af'idah,S.T.,M.Kom. jabatan sebagai Koordinator bidang akademik"
+        
+      ]
+    },
+
+    {
+      "tag": "korbidangspmi",
+      "patterns": [
+        "Siapa nama koordinator bidang spmi teknik informatika?",
+        "Siapa nama koordinator bidang smpi  teknikinformatika?",
+        "Siapa nama koordinator bidang spmi  teknikinformatika poltek harber?", 
+        "Siapa nama koordinator bidang spmi teknik informatika politeknik harapan bersama?",
+        "Siapa nama koordinator bidang spmi teknik informatika poltek harber?",
+        "Siapa nama koordinator bidang spmi teknik informatika politeknik harapan bersama?"
+        
+      ],
+      "responses": [
+        "Koordinator bidang akademik : Bu Dyah Apriliani,S.T.,M.Kom."
+        
+      ]
+    },
+
+    {
+      "tag": "BuDyahApriliani",
+      "patterns": [
+        "Siapa Bu Dyah Apriliani?",
+        "Apa jabatan Bu Dyah Apriliani di poltek harber?",
+        "Sebagai apa Bu Dyah Apriliani dipoltek harber?",
+        "apa jabatan Bu Dyah Apriliani diprodi teknik informatika?",
+        "apa jabatan Bu Dyah Apriliani di poltek harber?",
+        "siapakah dia Bu Dyah Apriliani?",
+        "siapakah Bu Dyah Apriliani di poltek harber?",
+        "Jabatan apa yang diduduki Bu Dyah Apriliani dipoltek harber?",
+        "Bu Dyah Apriliani saat ini menjabat sebagai apa?",
+        "apa jabatan saat ini Bu Dyah Apriliani?",
+        "apa jabatan Bu Dyah Apriliani diprodi studi teknik informatika politeknik harapan bersama?"
+        
+      ],
+      "responses": [
+        "Saat ini  Bu Dyah Apriliani,S.T.,M.Kom. jabatan sebagai Koordinator bidang akademik"
+        
+      ]
+    },
+
+    {
+      "tag": "korbidangkemaahasiswaan",
+      "patterns": [
+        "Siapa nama koordinator bidang kemahasiswaan teknik informatika?",
+        "Siapa nama koordinator bidang kemahasiswaan teknikinformatika?",
+        "Siapa nama koordinator bidang kemahasiswaan teknikinformatika poltek harber?", 
+        "Siapa nama koordinator bidang kemahasiswaan teknik informatika politeknik harapan bersama?",
+        "Siapa nama koordinator bidang kemahasiswaan teknik informatika poltek harber?",
+        "Siapa nama koordinator bidang kemahasiswaan teknik informatika politeknik harapan bersama?"
+        
+      ],
+      "responses": [
+        "Koordinator bidang kemahasiswaan : Bu Sharfina Febbi Handavani."
+        
+      ]
+    },
+
+    {
+      "tag": "BuSharfina",
+      "patterns": [
+        "Siapa Bu Sharfina?",
+        "Apa jabatan Bu Sharfina di poltek harber?",
+        "Sebagai apa Bu Sharfina dipoltek harber?",
+        "apa jabatan Bu Sharfina diprodi teknik informatika?",
+        "apa jabatan Bu Sharfina di poltek harber?",
+        "siapakah dia Bu Sharfina?",
+        "siapakah Bu Sharfina di poltek harber?",
+        "Jabatan apa yang diduduki Bu Sharfina dipoltek harber?",
+        "Bu Sharfina saat ini menjabat sebagai apa?",
+        "apa jabatan saat ini Bu Sharfina?",
+        "apa jabatan Bu Sharfina diprodi studi teknik informatika politeknik harapan bersama?"
+        
+      ],
+      "responses": [
+        "Saat ini  Bu Sharfina Febbi Handavani. jabatan sebagai Koordinator bidang kemahasiswaan"
+        
+      ]
+    },
+
+    {
+      "tag": "korbidanglaboratorium",
+      "patterns": [
+        "Siapa nama koordinator bidang laboratorium teknik informatika?",
+        "Siapa nama koordinator bidang laboratorium teknikinformatika?",
+        "Siapa nama koordinator bidang laboratorium teknikinformatika poltek harber?", 
+        "Siapa nama koordinator bidang laboratorium teknik informatika politeknik harapan bersama?",
+        "Siapa nama koordinator bidang laboratorium teknik informatika poltek harber?",
+        "Siapa nama koordinator bidang laboratorium teknik informatika politeknik harapan bersama?"
+        
+      ],
+      "responses": [
+        "Koordinator bidang laboratorium : Pak M.Nishom,M.Kom."
+        
+      ]
+    },
+
+    {
+      "tag": "paknishom",
+      "patterns": [
+        "Siapa pak nishom?",
+        "Apa jabatan pak nishom di poltek harber?",
+        "Sebagai apa pak nishom dipoltek harber?",
+        "apa jabatan pak nishom diprodi teknik informatika?",
+        "apa jabatan pak nishom di poltek harber?",
+        "siapakah dia pak nishom?",
+        "siapakah pak nishom di poltek harber?",
+        "Jabatan apa yang diduduki pak nishom dipoltek harber?",
+        "pak nishom saat ini menjabat sebagai apa?",
+        "apa jabatan saat ini pak nishom?",
+        "apa jabatan pak nishom diprodi studi teknik informatika politeknik harapan bersama?"
+        
+      ],
+      "responses": [
+        "Saat ini  Pak M.Nishom,M.Kom. jabatan sebagai Koordinator bidang laboratorium"
+        
+      ]
+    },
+
+    {
+      "tag": "pembuataplikasi",
+      "patterns": [
+        "siapa sih pembuat aplikasi Kanca Bot TI?",
+        "siapa pembuat aplikasi ini?",
+
+        "aplikasi ini dibuat oleh siapa?",
+        "ini aplikasi buatan siapa?"
+      
+        
+      ],
+      "responses": [
+        "This app created by DHRS squad."
+        
+      ]
+    },
+
+    {
+      "tag": "skssatu",
+      "patterns": [
+        "berapa sks di semester 1?",
+        "sks semester 1 berapa?",
+        "disemester 1 berapa sks?",
+        "jumlah sks sem 1",
+        "jumlah sks semester 1",
+        "total sks semester satu",
+        "sks semester satu"
+      ],
+      "responses": [
+        "sks di semester 1 berjumlah 20 sks"
+        
+      ]
+    },
+
+    {
+      "tag": "sksdua",
+      "patterns": [
+        "berapa sks di semester 2?",
+        "berapa sks di semester dua?",
+        "berapa sks di semester dua",
+        "sks semester 2 berapa?",
+        "sks semester dua berapa?",
+        "sks semester dua berapa",
+        "disemester 2 berapa sks?",
+        "disemester dua berapa sks?",
+        "disemester dua berapa sks",
+        "jumlah sks sem dua",
+        "jumlah sks sem 2",
+        "jumlah sks sem 2?",
+        "jumlah sks sem dua?",
+        "jumlah sks semester 2",
+        "jumlah sks semester dua?",
+        "jumlah sks semester 2?",
+        "jumlah sks semesterdua?",
+        "total sks semester 2?",
+        "total sks semester 2",
+        "total sks semester dua?",
+        "total sks semester dua",
+        "sks semester 2",
+        "sks semester 2?",
+        "sks semester dua",
+        "sks semester 2?"
+      ],
+      "responses": [
+        "sks di semester 2 berjumlah 20 sks"
+        
+      ]
+    },
+
+    {
+      "tag": "skstiga",
+      "patterns": [
+        "berapa sks di semester 3?",
+        "berapa sks di semester tiga?",
+        "berapa sks di semester tiga",
+        "sks semester 3 berapa?",
+        "sks semester tiga berapa?",
+        "sks semester tiga berapa",
+        "disemester 3 berapa sks?",
+        "disemester tiga berapa sks?",
+        "disemester tiga berapa sks",
+        "jumlah sks sem tiga",
+        "jumlah sks sem 3",
+        "jumlah sks sem 3?",
+        "jumlah sks sem tiga?",
+        "jumlah sks semester 3",
+        "jumlah sks semester tiga?",
+        "jumlah sks semester 3?",
+        "jumlah sks semestertiga?",
+        "total sks semester 3?",
+        "total sks semester 3",
+        "total sks semester tiga?",
+        "total sks semester tiga",
+        "sks semester 3",
+        "sks semester 3?",
+        "sks semester tiga",
+        "sks semester 3?"
+      ],
+      "responses": [
+        "sks di semester 3 berjumlah 22 sks"
+        
+      ]
+    },
+
+    {
+      "tag": "sksempat",
+      "patterns": [
+        "berapa sks di semester 4?",
+        "berapa sks di semester empat?",
+        "berapa sks di semester empat",
+        "sks semester 4 berapa?",
+        "sks semester empat berapa?",
+        "sks semester empat berapa",
+        "disemester 4 berapa sks?",
+        "disemester empat berapa sks?",
+        "disemester empat berapa sks",
+        "jumlah sks sem empat",
+        "jumlah sks sem 4",
+        "jumlah sks sem 4?",
+        "jumlah sks sem empat?",
+        "jumlah sks semester 4",
+        "jumlah sks semester empat?",
+        "jumlah sks semester 4?",
+        "jumlah sks semesterempat?",
+        "total sks semester 4?",
+        "total sks semester 4",
+        "total sks semester empat?",
+        "total sks semester empat",
+        "sks semester 4",
+        "sks semester 4?",
+        "sks semester empat",
+        "sks semester 4?"
+      ],
+      "responses": [
+        "sks di semester 4 berjumlah 21 sks"
+        
+      ]
+    },
+
+    {
+      "tag": "skslima",
+      "patterns": [
+        "berapa sks di semester 5?",
+        "berapa sks di semester lima?",
+        "berapa sks di semester lima",
+        "sks semester 5 berapa?",
+        "sks semester lima berapa?",
+        "sks semester lima berapa",
+        "disemester 5 berapa sks?",
+        "disemester lima berapa sks?",
+        "disemester lima berapa sks",
+        "jumlah sks sem lima",
+        "jumlah sks sem 5",
+        "jumlah sks sem 5?",
+        "jumlah sks sem lima?",
+        "jumlah sks semester 5",
+        "jumlah sks semester lima?",
+        "jumlah sks semester 5?",
+        "jumlah sks semesterlima?",
+        "total sks semester 5?",
+        "total sks semester 5",
+        "total sks semester lima?",
+        "total sks semester lima",
+        "sks semester 5",
+        "sks semester 5?",
+        "sks semester lima",
+        "sks semester 5?"
+      ],
+      "responses": [
+        "sks di semester 5 berjumlah 23 sks"
+        
+      ]
+    },
+
+    {
+      "tag": "pembuataplikasi",
+      "patterns": [
+        "siapa sih pembuat aplikasi Kanca Bot TI?",
+        "siapa pembuat aplikasi ini?",
+        
+        "aplikasi ini dibuat oleh siapa?",
+        "ini aplikasi buatan siapa?"
+      
+        
+      ],
+      "responses": [
+        "This app created by DHRS squad."
+        
+      ]
+    },
+
+    {
+      "tag": "lokasi",
+      "patterns": [
+        "Dimana lokasi kampus poltek harber?",
+        "Dimana lokasi kampus politeknik harapan bersama tegal?",
+        "Lokasi kampus poltek harber?",
+        "Lokasi kampus politeknik harapan bersama kota tegal ?"
+      
+        
+      ],
+      "responses": [
+        "Kampus POLITEKNIK HARAPAN BERSAMA TEGAL berada di Jalan Mataram No 9 (belakang terminal) Pesurungan Lor Kota Tegal."
+        
+      ]
+    },
+
+    {
+      "tag": "fasilitas",
+      "patterns": [
+        "dipoltek Fasilitasnya apa ajah ?",
+        "Fasilitas apa saja yang ada dikampus poltek harber?",
+        "Ada fasilitas apa dikampus politeknik harapan bersama tegal?",
+        "Ada fasilitas apa dikampus poltek harber?",
+        "Fasilitas apa saja yang ada dkampus politeknik harapan bersama kota tegal ?"
+      
+        
+      ],
+      "responses": [
+        "1.Kelas, 2.Perpustakaan, 3.Laboratorium Software (1), 4.Laboratorium Software (2), 5.Laboratorium Hadware, 6.Laboratorium Researh and Developm"
+        
+      ]
+    },
+
+    {
+      "tag": "smtr1",
+      "patterns": [
+        "Ada berapa jumlah sks semester1 di prodi teknik informatika ?",
+        "Ada berapa jumlah sks semester1 di prodi TI politeknik harapan bersama?",
+        "Berapa jumlah sks semester1 di prodi teknik informatika ?",
+        "Berapa jumlah sks semester1 di prodi TI ?"
+      
+        
+      ],
+      "responses": [
+        "Jumlah SKS semester 1 ada 20 SKS  "
+        
+      ]
+    },
+
+    {
+      "tag": "informatrika",
+      "patterns": [
+        "apa itu teknik informatika?",
+        "apa itu informatika?"
+        
+      ],
+      "responses": [
+        "Teknik Informatika merupakan bidang ilmu yang mempelajari bagaimana menggunakan teknologi komputer secara optimal guna menangani masalah transformasi atau pengolahan data dengan proses logika."
+        
+      ]
+    },
+    
+    {
+      "tag": "options",
+      "patterns": [
+        "Kamu bisa apa saja?",
+        "Saya mau tanya dong",
+        "saya bisa tanya tentang apa saja?",
+        "Saya bisa tanya apa?"
+      ],
+      "responses": [
+        "Silahkan bertanya kepada saya, saya bisa menjelaskan kepada anda mengenai aplikasi ini", "Saya akan membantu anda dalam menggunakan aplikasi Kanca Bot TI dan mengenai Prodi TI"
+        
+      ]
+    }
+  ]
+}
